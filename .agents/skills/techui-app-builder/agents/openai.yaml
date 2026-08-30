@@ -1,0 +1,4 @@
+interface:
+  display_name: "TechUI App Builder"
+  short_description: "Build Vue 3 applications with TechUI components"
+  default_prompt: "Use $techui-app-builder to build a Vue 3 application with the smallest suitable TechUI package."

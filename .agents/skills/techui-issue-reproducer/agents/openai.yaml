@@ -1,0 +1,4 @@
+interface:
+  display_name: "TechUI Issue Reproducer"
+  short_description: "Create minimal TechUI reproductions and issue reports"
+  default_prompt: "Use $techui-issue-reproducer to reduce this TechUI problem to a minimal starter reproduction and draft an issue report."
