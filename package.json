@@ -1,0 +1,17 @@
+{
+  "name": "techui-starter",
+  "private": true,
+  "workspaces": [
+    "starter/*"
+  ],
+  "scripts": {
+    "dev:base": "npm run dev --workspace=@techui-starter/base",
+    "dev:admin": "npm run dev --workspace=@techui-starter/admin",
+    "dev:prime": "npm run dev --workspace=@techui-starter/prime",
+    "dev:scifi": "npm run dev --workspace=@techui-starter/scifi",
+    "build:base": "npm run build --workspace=@techui-starter/base",
+    "build:admin": "npm run build --workspace=@techui-starter/admin",
+    "build:prime": "npm run build --workspace=@techui-starter/prime",
+    "build:scifi": "npm run build --workspace=@techui-starter/scifi"
+  }
+}

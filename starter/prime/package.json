@@ -1,0 +1,21 @@
+{
+  "name": "@techui-starter/prime",
+  "private": true,
+  "version": "0.1.9",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@techui/prime": "^0.1.9-alpha.1",
+    "@techui/themes": "^0.1.9",
+    "vue": "^3.4.27",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.7"
+  }
+}
